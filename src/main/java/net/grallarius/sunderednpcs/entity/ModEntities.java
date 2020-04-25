@@ -20,12 +20,12 @@ public class ModEntities {
     public static final EntityType<SittableEntity> SITTABLE_ENTITY = buildType(new ResourceLocation(MODID, "sittable"), EntityType.Builder.<SittableEntity>create((type, world) -> new SittableEntity(world), EntityClassification.MISC).size(0.0F, 0.0F).setCustomClientFactory((spawnEntity, world) -> new SittableEntity(world)));
     //public static final EntityType<NPCEntity> NPC_ENTITY = buildType(new ResourceLocation(MODID, "npc"), EntityType.Builder.<NPCEntity>create((type, world) -> new NPCEntity(world), EntityClassification.MISC).size(0.0F, 0.0F).setCustomClientFactory((spawnEntity, world) -> new NPCEntity(world)));
 
-    @ObjectHolder("sunderedquesting:npc")
+    @ObjectHolder("sunderednpcs:npc")
     public static EntityType<?> npc_entity = EntityType.Builder.create(NPCEntity::new, EntityClassification.CREATURE).build(MODID + ":npc_entity").setRegistryName(MODID, "npc_entity");
 
 
     public static Item registerEntitySpawnEgg(EntityType<?> type, int col1, int col2, String name){
-        SpawnEggItem item = new SpawnEggItem(type, col1, col2, new Item.Properties().group(ModBlocks.sqTab.itemGroup));
+        SpawnEggItem item = new SpawnEggItem(type, col1, col2, new Item.Properties().group(ModBlocks.sunderedNPCsTab.itemGroup));
         item.setRegistryName(MODID, name);
         return item;
     }

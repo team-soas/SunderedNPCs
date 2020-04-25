@@ -23,7 +23,7 @@ public class NPCWand extends Item {
     public NPCWand() {
         super(new Properties()
                 .maxStackSize(1)
-                .group(ModBlocks.sqTab.itemGroup));
+                .group(ModBlocks.sunderedNPCsTab.itemGroup));
         setRegistryName("npcwand");
     }
 

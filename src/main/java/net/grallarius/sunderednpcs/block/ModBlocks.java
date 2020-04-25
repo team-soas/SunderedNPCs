@@ -1,6 +1,7 @@
 package net.grallarius.sunderednpcs.block;
 
 import net.grallarius.sunderednpcs.SunderedNPCs;
+import net.grallarius.sunderednpcs.SunderedNPCsTab;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,7 +15,7 @@ import java.util.List;
 @Mod.EventBusSubscriber(modid = SunderedNPCs.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModBlocks {
 
-    public static net.grallarius.sunderednpcs.SQTab sqTab = new net.grallarius.sunderednpcs.SQTab();
+    public static SunderedNPCsTab sunderedNPCsTab = new SunderedNPCsTab();
 
 
     private static final List<Block> BLOCKS = new ArrayList<>();
@@ -32,7 +33,7 @@ public class ModBlocks {
 
     private static Block register(String name, Block block)
     {
-        return register(name, block, new Item.Properties().group(sqTab.itemGroup));
+        return register(name, block, new Item.Properties().group(sunderedNPCsTab.itemGroup));
     }
 
     private static Block register(String name, Block block, Item.Properties properties)

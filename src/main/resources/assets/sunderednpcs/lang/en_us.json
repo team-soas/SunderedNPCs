@@ -1,8 +1,8 @@
 {
-  "itemGroup.sunderedquesting": "Sundered Questing Items",
+  "itemGroup.sunderednpcs": "Sundered Questing Items",
 
   "_comment": "Items",
-  "item.sunderedquesting.npcwand": "NPC Wand",
+  "item.sunderednpcs.npcwand": "NPC Wand",
 
 
   "_comment": "Blocks",
@@ -10,11 +10,14 @@
 
   "_comment": "garden",
 
-  "block.sunderedquesting.windowbox": "Windowbox",
+  "block.sunderednpcs.windowbox": "Windowbox",
 
   "_comment": "Entities",
 
-  "entity.sunderedquesting.npc_entity": "A Sundered NPC",
+  "entity.sunderednpcs.npc_entity": "A Sundered NPC",
+
+  "_comment": "Eggs",
+  "entity.sunderednpcs.npc_entity_egg": "An egg to create a Sundered NPC",
 
   "_comment": "Screens",
   "gui.dialog": "Dialogs",

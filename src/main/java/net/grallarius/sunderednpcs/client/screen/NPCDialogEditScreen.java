@@ -157,14 +157,16 @@ public class NPCDialogEditScreen extends Screen {
         this.mousePosx = p_render_1_;
         this.mousePosy = p_render_2_;
 
+        int headerHeight = 35;
+
         //draw titles for gui and text fields
         this.drawCenteredString(this.font, I18n.format("npc.dialog.title"), this.width / 2, 20, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.prev"), this.width / 2 +col1, 35, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.prereq"), this.width / 2 +col2, 35, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.type"), this.width / 2 +col3, 35, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.playertext"), this.width / 2 +col4, 35, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.npcresponse"), this.width / 2 +col5, 35, 16777215);
-        this.drawString(this.font, I18n.format("npc.dialog.flaggiven"), this.width / 2 +col6, 35, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.prev"), this.width / 2 +col1, headerHeight, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.prereq"), this.width / 2 +col2, headerHeight, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.type"), this.width / 2 +col3, headerHeight, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.playertext"), this.width / 2 +col4, headerHeight, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.npcresponse"), this.width / 2 +col5, headerHeight, 16777215);
+        this.drawString(this.font, I18n.format("npc.dialog.flaggiven"), this.width / 2 +col6, headerHeight, 16777215);
 
         //draw indices
         for(int i=1; i<7; i++){
