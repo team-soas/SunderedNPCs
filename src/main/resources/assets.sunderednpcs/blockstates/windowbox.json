@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "shape=single,facing=north": {"model": "sundereddeco:block/garden/windowbox_single", "y": 0},
+    "shape=endleft,facing=north": {"model": "sundereddeco:block/garden/windowbox_end_openleft", "y": 0},
+    "shape=endright,facing=north": {"model": "sundereddeco:block/garden/windowbox_end_openright", "y": 0},
+    "shape=straight,facing=north": {"model": "sundereddeco:block/garden/windowbox_straight", "y": 0},
+    "shape=single,facing=east": {"model": "sundereddeco:block/garden/windowbox_single", "y": 90},
+    "shape=endleft,facing=east": {"model": "sundereddeco:block/garden/windowbox_end_openleft", "y": 90},
+    "shape=endright,facing=east": {"model": "sundereddeco:block/garden/windowbox_end_openright", "y": 90},
+    "shape=straight,facing=east": {"model": "sundereddeco:block/garden/windowbox_straight", "y": 90},
+    "shape=single,facing=south": {"model": "sundereddeco:block/garden/windowbox_single", "y": 180},
+    "shape=endleft,facing=south": {"model": "sundereddeco:block/garden/windowbox_end_openleft", "y": 180},
+    "shape=endright,facing=south": {"model": "sundereddeco:block/garden/windowbox_end_openright", "y": 180},
+    "shape=straight,facing=south": {"model": "sundereddeco:block/garden/windowbox_straight", "y": 180},
+    "shape=single,facing=west": {"model": "sundereddeco:block/garden/windowbox_single", "y": 270},
+    "shape=endleft,facing=west": {"model": "sundereddeco:block/garden/windowbox_end_openleft", "y": 270},
+    "shape=endright,facing=west": {"model": "sundereddeco:block/garden/windowbox_end_openright", "y": 270},
+    "shape=straight,facing=west": {"model": "sundereddeco:block/garden/windowbox_straight", "y": 270}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "itemGroup.sunderedquesting": "Sundered Questing Items",
+
+  "_comment": "Items",
+  "item.sunderedquesting.npcwand": "NPC Wand",
+
+
+  "_comment": "Blocks",
+
+
+  "_comment": "garden",
+
+  "block.sunderedquesting.windowbox": "Windowbox",
+
+  "_comment": "Entities",
+
+  "entity.sunderedquesting.npc_entity": "A Sundered NPC",
+
+  "_comment": "Screens",
+  "gui.dialog": "Dialogs",
+  "npc.edit.title": "NPC Customization",
+  "npc.edit.name": "Rename NPC",
+  "npc.dialog.title": "Customize this NPC's Dialog",
+  "npc.dialog.index": "Index",
+  "npc.dialog.prev": "Prev.",
+  "npc.dialog.prereq": "Req. Flag",
+  "npc.dialog.type": "Type",
+  "npc.dialog.playertext": "Player Text",
+  "npc.dialog.npcresponse": "NPC Response",
+  "npc.dialog.flaggiven": "Flag Given",
+
+  "npc.chat.leave": "Good bye."
+}
